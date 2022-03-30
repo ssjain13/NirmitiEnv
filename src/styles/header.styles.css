@@ -1,0 +1,31 @@
+.header {
+  background-color: var(--sea-green);
+  min-height: 50px;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  font-weight: 700;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.nav-label {
+  font-size: 12px;
+  background: #ff0000;
+  color: #fff;
+  padding: 0 5px;
+  vertical-align: top;
+}
+.nav-item {
+  color: #f7feff;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: #fcd9ed;
+}

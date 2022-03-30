@@ -1,0 +1,27 @@
+{
+    "user": [
+        {
+            "id": 1,
+            "name": "Santosh",
+            "email": "santosh@gmail.com",
+            "password": "santosh@1234",
+            "registration_date": "11-03-2022"
+        },
+        {
+            "id": 2,
+            "name": "Leanne Graham",
+            "email": "Sincere@april.biz",
+            "password": "Sincere@1234",
+            "registration_date": "11-03-2022"
+        },
+        {
+            "id": 3,
+            "name": "Clementine Bauch",
+            "username": "Samantha",
+            "email": "Nathan@yesenia.net",
+            "password": "Nathan@1234",
+            "registration_date": "10-02-2022"
+        }
+           
+    ]
+}

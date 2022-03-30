@@ -1,0 +1,16 @@
+.product-image{
+    height : 80px;
+    width : 80px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.product{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.product-content{
+   
+}

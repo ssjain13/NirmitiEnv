@@ -1,0 +1,45 @@
+.container {
+  margin: 1em;
+}
+.card img {
+  height: 250px;
+  width: 250px;
+  border: 12px solid #1683a1;
+}
+
+.card-image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-title {
+  color: #034b57;
+  text-align: center;
+}
+.card-title h3 {
+  margin: 0;
+}
+
+@keyframes categoryTransition {
+  50% {
+    transform: scale(0.95);
+  }
+}
+
+.card-image :hover {
+  cursor: pointer;
+  animation: categoryTransition 2s;
+}
+.product-card img {
+  height: 150px;
+  width: 150px;
+  align-items: center;
+}
+.product-card {
+  border: 2px solid;
+  margin: 1em;
+  flex: 1;
+  max-width: 250px;
+  min-width: 250px;
+  
+}
