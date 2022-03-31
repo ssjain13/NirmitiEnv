@@ -9,10 +9,19 @@ import {
   styled,
 } from "@mui/material";
 import React from "react";
+import { useEffect } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import { LoginModal } from "../Auth/login.component";
 import { Search } from "./search";
-import {LoginModal } from "../login.component"
+
 export const NavBar = () => {
+  const [showHeader, setShowHeader] = useState(false);
+  
+useEffect(() => {
+
+})
+
   const StyledBadge = styled(Badge)(({ theme }) => ({
     "& .MuiBadge-badge": {
       border: `2px solid ${theme.palette.background.paper}`,
@@ -48,6 +57,8 @@ export const NavBar = () => {
     setOpen(false);
   };
 
+  
+
   return (
     <AppBar
       position="sticky"
@@ -76,6 +87,7 @@ export const NavBar = () => {
           </Box>
         </StyledContainer>
       </Wrapper>
+      
     </AppBar>
   );
 };

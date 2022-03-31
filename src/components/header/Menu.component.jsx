@@ -39,7 +39,7 @@ export const Menu = () => {
     },
   }));
   return (
-    <SubMenu elevation={2}>
+    <SubMenu elevation={2} >
       <MenuContainer>
         {data.map((menuItem) => (
           <MenuItem>

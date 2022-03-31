@@ -16,3 +16,18 @@ export const menuItems = [
     link: "/contact",
   },
 ];
+
+export const footerMenu = [
+  {
+    title: "Help Center",
+    link: "/help",
+  },
+  {
+    title: "Track your order",
+    link: "/customerOrder",
+  },
+  {
+    title: "Refunds & Returns",
+    link: "/return",
+  },
+];

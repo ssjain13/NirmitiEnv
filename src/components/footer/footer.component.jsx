@@ -13,22 +13,10 @@ import {
 import React from "react";
 import { Link } from "react-router-dom";
 import { SocialIcons } from "./SocialIcons.component";
+import { footerMenu } from "../../data/static/Menu";
 
-const footerMenu = [
-  {
-    title: "Help Center",
-    link: "/help",
-  },
-  {
-    title: "Track your order",
-    link: "/customerOrder",
-  },
-  {
-    title: "Refunds & Returns",
-    link: "/return",
-  },
-];
 export default function Footer() {
+  const menu = footerMenu;
   const FooterContainer = styled(Container)(({ theme }) => ({
     width: "100%",
     marginLeft: "auto",
@@ -62,7 +50,7 @@ export default function Footer() {
             <InnerContainer>
               <Typography variant="h6">Customer Care</Typography>
             </InnerContainer>
-            {footerMenu.map((item) => (
+            {menu.map((item) => (
               <InnerContainer>
                 <NavLink to={item.link}>{item.title}</NavLink>
               </InnerContainer>

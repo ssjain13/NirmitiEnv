@@ -10,7 +10,7 @@ import { Catalog } from "./pages/catalog.page";
 import { Login } from "./pages/login.page";
 import { ProductDetails } from "./pages/product.details.page";
 import { Products } from "./pages/products.page";
-import { Register } from "./pages/registration.page";
+import { Register, Registeration } from "./pages/registration.page";
 import { Shopping } from "./pages/shopping.page";
 import { getProducts } from "./services/products.service";
 
@@ -36,7 +36,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
+        <Route path="/register" element={<Registeration />} />
         <Route path="/products" element={<Products products={products} />} />
         <Route path="/products/:id" element={<ProductDetails />} />
         <Route index element={<ProductSlider />} />
